@@ -2,21 +2,36 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+To Create a multiple page application with ReactJS.
+
+First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+
+The  application will also provide a search bar to filter pokemon.
 
 ## Description
-TODO - How have you solved the problem?
+Display a list of Pokémon with lazy loading.
+View detailed information about a specific Pokémon.
+Search for Pokémon by name.
+Handle errors gracefully, including network issues.
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+Clone the repository.
+Install dependencies:
+bash
+npm install
+ReactJS
+Axios for API requests
+React Router for navigation
+run npm run build
+
 
 ## Usage
-TODO - How does it work?
+use to Create a multiple page application with ReactJS.
 ```
-./my_project argument1 argument2
+page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
 ```
 
-### The Core Team
+### The Core Team 
 
 
 <span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
