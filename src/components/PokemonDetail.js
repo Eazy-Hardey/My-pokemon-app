@@ -1,11 +1,12 @@
 // src/components/PokemonDetail.js
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams  } from 'react-router-dom';
 import axios from 'axios';
 import './PokemonDetail.css';
 
 function PokemonDetail() {
   const { id } = useParams();
+  //const history = useHistory();
   const [pokemon, setPokemon] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -37,6 +38,10 @@ function PokemonDetail() {
     return <p>No Pokémon data available.</p>;
   }
 
+  const handleBackClick = () => {
+    window.history.back() // Navigate back to the previous page
+  };
+
   return (
     <div className="pokemon-detail">
       <h1>{pokemon.name}</h1>
@@ -63,6 +68,7 @@ function PokemonDetail() {
           <li key={index}>{type.type.name}</li>
         ))}
       </ul>
+      <button onClick={handleBackClick} className="back-button">Back</button>
     </div>
   );
 }
