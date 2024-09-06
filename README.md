@@ -1,11 +1,15 @@
 # Welcome to My Pokemon App
-This is my pokemon app, this project was carried out off the official Qwasar-do-code as a result of alot of issues with the platform, i utilize Vs code to carry out this project and was hosted on netlify, p;lease vist the attached link to see the hosted version on netlify
+All necessary correction has been worked on
+Welcome to my pokemon app, this project was done offline using VS code and was git to gitea, and was tested on do code 
+this project include lazy loading.
+In other to to run this app endavor to follow the necessary procedure 
 
 ## Task
 To Create a multiple page application with ReactJS.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
-
+First page will display all the pokemon, with lazy loading. 
+Another page will show the detail of a specific pokemon.
+The application will also provide a search bar to filter pokemon.
 The  application will also provide a search bar to filter pokemon.
 
 ## Description
@@ -30,7 +34,8 @@ use to Create a multiple page application with ReactJS.
 ```
 page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
 ```
-Link to the Hosted platform<a> href=https://eazypokemonapp.netlify.app</a></i></span>
+
+LINK TO THE HOSTED VERSION ON NETLIFY: https://eazypokemonapp.netlify.app/
 
 ### The Core Team 
 
